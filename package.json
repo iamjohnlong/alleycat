@@ -5,7 +5,7 @@
   "main": "./dist/alleycat.js",
   "scripts": {
     "test": "jest --watchAll --coverage",
-    "build": "webpack -p --config ./webpack.config.js"
+    "build": "rm -rf ./dist && webpack -p --config ./webpack.config.js"
   },
   "author": "John Long nakaroka@gmail.com",
   "license": "MIT",
