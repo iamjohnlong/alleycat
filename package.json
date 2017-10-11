@@ -1,0 +1,41 @@
+{
+  "name": "alleycat",
+  "version": "0.0.1",
+  "description": "A work in progress router.",
+  "main": "./dist/alleycat.js",
+  "scripts": {
+    "test": "jest --watchAll --coverage",
+    "build": "webpack -p --config ./webpack.config.js"
+  },
+  "author": "John Long nakaroka@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "url-pattern": "^1.0.3"
+  },
+  "jest": {
+    "testURL": "http://needlepoint.com/",
+    "setupFiles": [
+      "<rootDir>/test/setup.js"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "jasmine": "^2.8.0",
+    "jest": "^21.2.1",
+    "karma": "^1.7.1",
+    "karma-babel-preprocessor": "^7.0.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.4",
+    "karma-webpack": "^2.0.4",
+    "mocha": "^4.0.1",
+    "webpack": "^3.6.0"
+  }
+}
