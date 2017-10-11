@@ -9,14 +9,19 @@
   },
   "author": "John Long nakaroka@gmail.com",
   "license": "MIT",
-  "dependencies": {
-    "url-pattern": "^1.0.3"
+  "homepage": "https://github.com/iamjohnlong/alleycat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamjohnlong/alleycat.git"
   },
   "jest": {
     "testURL": "http://needlepoint.com/",
     "setupFiles": [
       "<rootDir>/test/setup.js"
     ]
+  },
+  "dependencies": {
+    "url-pattern": "^1.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
