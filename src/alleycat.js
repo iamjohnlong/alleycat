@@ -53,7 +53,7 @@ const match = (loc) => {
   if (notFound) {
     didMount = true;
     hooks.didMount.call(null, args);
-    hooks.notFound();
+    hooks.notFound(args);
   }
 };
 

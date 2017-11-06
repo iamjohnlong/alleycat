@@ -41,6 +41,7 @@ describe('alleycat', () => {
     };
     const hooks = {
       notFound() {
+        console.log('should');
         router.set('/404');
       }
     };
